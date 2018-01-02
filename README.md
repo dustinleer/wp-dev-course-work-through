@@ -10,3 +10,5 @@ Clone the repo and make changes on your own if you are following along with the 
 ---
 
 This is just a repo of my work throughs.
+
+Source files located on [Zac Gordons' Github](https://github.com/zgordon/wp-dev-course.git)
