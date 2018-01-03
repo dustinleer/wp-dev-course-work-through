@@ -25,5 +25,18 @@ register_nav_menus( [
     'main-menu' => esc_html__( 'Main Menu', 'wpheirarchy' ),
 ]);
 
+// Setup Widget Areas
+function wpheirarchy_widgets_init() {
+    register_sidebar([
+        'name'          => esc_html__( 'Main Sidebar', 'wpheirarchy' ),
+        'id'            => 'main-sidebar',
+        'description'   => esc_html__( 'Add widgets for main sidebar', 'wpheirarchy' ),
+        'before_widget' => '<section class="widget">',
+        'after_widget'  => '</section>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ]);
+}
+add_action( 'widgets_init', 'wpheirarchy_widgets_init');
 
 ?>
