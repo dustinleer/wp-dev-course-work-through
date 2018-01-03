@@ -16,4 +16,6 @@
 	
 	</div>
 
+	<?php comments_template(); ?>
+
 </article>
