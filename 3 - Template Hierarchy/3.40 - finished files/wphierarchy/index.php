@@ -18,13 +18,11 @@
 				
 				</div>
 
-
 			</article>
 
 		</main>
 
 		
 	</div>
-
 
 <?php get_footer(); ?>
