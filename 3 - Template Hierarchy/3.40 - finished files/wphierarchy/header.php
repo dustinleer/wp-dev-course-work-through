@@ -7,6 +7,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
+		
 		<div id="page">
 			
 			<a href="#content" class="skip-link screen-reader-text">
